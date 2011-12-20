@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37F19509147A8EC40046C8AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F19508147A8EC40046C8AF /* UIKit.framework */; };
+		37F1950B147A8EC40046C8AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F1950A147A8EC40046C8AF /* Foundation.framework */; };
+		37F1950D147A8EC40046C8AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F1950C147A8EC40046C8AF /* CoreGraphics.framework */; };
+		37F19513147A8EC50046C8AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37F19511147A8EC50046C8AF /* InfoPlist.strings */; };
+		37F19515147A8EC50046C8AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F19514147A8EC50046C8AF /* main.m */; };
+		37F19519147A8EC50046C8AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F19518147A8EC50046C8AF /* AppDelegate.m */; };
+		37F1951C147A8EC50046C8AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F1951B147A8EC50046C8AF /* ViewController.m */; };
+		37F1951F147A8EC50046C8AF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37F1951D147A8EC50046C8AF /* ViewController.xib */; };
+		37F19529147A946C0046C8AF /* theResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F19526147A946C0046C8AF /* theResults.m */; };
+		37F1952A147A946C0046C8AF /* tableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F19528147A946C0046C8AF /* tableCell.m */; };
+		37F1952D147A9D030046C8AF /* web.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F1952C147A9D030046C8AF /* web.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37F19504147A8EC40046C8AF /* Bing5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bing5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F19508147A8EC40046C8AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37F1950A147A8EC40046C8AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37F1950C147A8EC40046C8AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37F19510147A8EC50046C8AF /* Bing5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bing5-Info.plist"; sourceTree = "<group>"; };
+		37F19512147A8EC50046C8AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37F19514147A8EC50046C8AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37F19516147A8EC50046C8AF /* Bing5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bing5-Prefix.pch"; sourceTree = "<group>"; };
+		37F19517147A8EC50046C8AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37F19518147A8EC50046C8AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37F1951A147A8EC50046C8AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37F1951B147A8EC50046C8AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37F1951E147A8EC50046C8AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		37F19525147A946C0046C8AF /* theResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theResults.h; sourceTree = "<group>"; };
+		37F19526147A946C0046C8AF /* theResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theResults.m; sourceTree = "<group>"; };
+		37F19527147A946C0046C8AF /* tableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableCell.h; sourceTree = "<group>"; };
+		37F19528147A946C0046C8AF /* tableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableCell.m; sourceTree = "<group>"; };
+		37F1952B147A9D020046C8AF /* web.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = web.h; sourceTree = "<group>"; };
+		37F1952C147A9D030046C8AF /* web.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = web.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37F19501147A8EC40046C8AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F19509147A8EC40046C8AF /* UIKit.framework in Frameworks */,
+				37F1950B147A8EC40046C8AF /* Foundation.framework in Frameworks */,
+				37F1950D147A8EC40046C8AF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37F194F9147A8EC40046C8AF = {
+			isa = PBXGroup;
+			children = (
+				37F1950E147A8EC50046C8AF /* Bing5 */,
+				37F19507147A8EC40046C8AF /* Frameworks */,
+				37F19505147A8EC40046C8AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37F19505147A8EC40046C8AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37F19504147A8EC40046C8AF /* Bing5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37F19507147A8EC40046C8AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37F19508147A8EC40046C8AF /* UIKit.framework */,
+				37F1950A147A8EC40046C8AF /* Foundation.framework */,
+				37F1950C147A8EC40046C8AF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37F1950E147A8EC50046C8AF /* Bing5 */ = {
+			isa = PBXGroup;
+			children = (
+				37F19517147A8EC50046C8AF /* AppDelegate.h */,
+				37F19518147A8EC50046C8AF /* AppDelegate.m */,
+				37F1951A147A8EC50046C8AF /* ViewController.h */,
+				37F1951B147A8EC50046C8AF /* ViewController.m */,
+				37F19525147A946C0046C8AF /* theResults.h */,
+				37F19526147A946C0046C8AF /* theResults.m */,
+				37F19527147A946C0046C8AF /* tableCell.h */,
+				37F19528147A946C0046C8AF /* tableCell.m */,
+				37F1952B147A9D020046C8AF /* web.h */,
+				37F1952C147A9D030046C8AF /* web.m */,
+				37F1951D147A8EC50046C8AF /* ViewController.xib */,
+				37F1950F147A8EC50046C8AF /* Supporting Files */,
+			);
+			path = Bing5;
+			sourceTree = "<group>";
+		};
+		37F1950F147A8EC50046C8AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37F19510147A8EC50046C8AF /* Bing5-Info.plist */,
+				37F19511147A8EC50046C8AF /* InfoPlist.strings */,
+				37F19514147A8EC50046C8AF /* main.m */,
+				37F19516147A8EC50046C8AF /* Bing5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37F19503147A8EC40046C8AF /* Bing5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F19522147A8EC50046C8AF /* Build configuration list for PBXNativeTarget "Bing5" */;
+			buildPhases = (
+				37F19500147A8EC40046C8AF /* Sources */,
+				37F19501147A8EC40046C8AF /* Frameworks */,
+				37F19502147A8EC40046C8AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bing5;
+			productName = Bing5;
+			productReference = 37F19504147A8EC40046C8AF /* Bing5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37F194FB147A8EC40046C8AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 37F194FE147A8EC40046C8AF /* Build configuration list for PBXProject "Bing5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37F194F9147A8EC40046C8AF;
+			productRefGroup = 37F19505147A8EC40046C8AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37F19503147A8EC40046C8AF /* Bing5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37F19502147A8EC40046C8AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F19513147A8EC50046C8AF /* InfoPlist.strings in Resources */,
+				37F1951F147A8EC50046C8AF /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37F19500147A8EC40046C8AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F19515147A8EC50046C8AF /* main.m in Sources */,
+				37F19519147A8EC50046C8AF /* AppDelegate.m in Sources */,
+				37F1951C147A8EC50046C8AF /* ViewController.m in Sources */,
+				37F19529147A946C0046C8AF /* theResults.m in Sources */,
+				37F1952A147A946C0046C8AF /* tableCell.m in Sources */,
+				37F1952D147A9D030046C8AF /* web.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37F19511147A8EC50046C8AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F19512147A8EC50046C8AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37F1951D147A8EC50046C8AF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F1951E147A8EC50046C8AF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37F19520147A8EC50046C8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37F19521147A8EC50046C8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37F19523147A8EC50046C8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bing5/Bing5-Prefix.pch";
+				INFOPLIST_FILE = "Bing5/Bing5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37F19524147A8EC50046C8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bing5/Bing5-Prefix.pch";
+				INFOPLIST_FILE = "Bing5/Bing5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37F194FE147A8EC40046C8AF /* Build configuration list for PBXProject "Bing5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F19520147A8EC50046C8AF /* Debug */,
+				37F19521147A8EC50046C8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F19522147A8EC50046C8AF /* Build configuration list for PBXNativeTarget "Bing5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F19523147A8EC50046C8AF /* Debug */,
+				37F19524147A8EC50046C8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37F194FB147A8EC40046C8AF /* Project object */;
+}
